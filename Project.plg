@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Project - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jhon\AppData\Local\Temp\RSPDCC8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Project.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\game.cpp"
+"E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\main.cpp"
+"E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\SelectDiffculty.cpp"
+]
+Creating command line "cl.exe @C:\Users\jhon\AppData\Local\Temp\RSPDCC8.tmp" 
+Creating temporary file "C:\Users\jhon\AppData\Local\Temp\RSPDCC9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Project.pdb" /debug /machine:I386 /out:"Debug/Project.exe" /pdbtype:sept 
+".\Debug\game.obj"
+".\Debug\main.obj"
+".\Debug\SelectDiffculty.obj"
+]
+Creating command line "link.exe @C:\Users\jhon\AppData\Local\Temp\RSPDCC9.tmp"
+<h3>Output Window</h3>
+Compiling...
+game.cpp
+E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\game.cpp(183) : error C2059: syntax error : ']'
+E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\game.cpp(184) : error C2143: syntax error : missing ';' before '{'
+E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\game.cpp(195) : error C2181: illegal else without matching if
+main.cpp
+E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\main.cpp(58) : error C2065: 'SeclectDifficulty' : undeclared identifier
+E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\main.cpp(60) : error C2065: 'Rank' : undeclared identifier
+E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\main.cpp(62) : error C2143: syntax error : missing ';' before 'case'
+SelectDiffculty.cpp
+E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\SelectDiffculty.cpp(2) : warning C4091: '' : ignored on left of 'void' when no variable is declared
+E:\VC\Microsoft Visual Studio\MyProjects\WorkPlace\Project\SelectDiffculty.cpp(2) : fatal error C1004: unexpected end of file found
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Project.exe - 7 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
